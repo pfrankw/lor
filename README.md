@@ -12,12 +12,17 @@ is about 500KB (maybe less with correct optimizations).
 Also this comes as a library to be embedded in your project, so your software
 does not need to make SOCKS connections to the Tor binary.
 
+## Crypto
+That was the funniest and hardest part to me. I first realized a version using
+OpenSSL, but the output was very big, then I decided to switch entirely on
+mbed TLS.
+
 ## PoC
 This is a proof-of-concept and should **NEVER** be used in production
 environments.
 It was fast coded and has not proper data structures and code design to
 handle serious problems (no event loop for example).
-It was just made to demonstrate that malware living entirely on Tor, without 
+It was just made to demonstrate that malware living entirely on Tor, without
 any kind of proxy or workarounds, can be realized.
 
 ## It is not working now
