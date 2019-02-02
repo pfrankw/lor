@@ -24,7 +24,3 @@ It was fast coded and has not proper data structures and code design to
 handle serious problems (no event loop for example).
 It was just made to demonstrate that malware living entirely on Tor, without
 any kind of proxy or workarounds, can be realized.
-
-## It is not working now
-It does not work because probably network authorities changed from 2015
-and maybe also document structures and the protocol itself have been modified.
