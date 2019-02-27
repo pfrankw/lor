@@ -1,7 +1,7 @@
 # Light Onion Router
 
 ## What is this?
-Light Onion Router is a project I developed in 2015 because I needed to make a
+Light Onion Router is a project I developed in 2015-2016 because I needed to make a
 hidden service reachable without using Tor (this is kind of strange, I know).
 The main purpose, in fact, was to create a malware capable of connecting to its
 C&C completely via the Tor network.
